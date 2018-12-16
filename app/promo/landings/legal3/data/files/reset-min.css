@@ -1,0 +1,23 @@
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style: none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
+a.chosen-single.chosen-default{
+	display:block;
+	border:1px solid rgba(255,255,255,0.0) !important;
+	outline:none;
+	color:#7d7d7d;
+	font:18px NeoSansPro_Light;
+	width:311px;
+	padding:11px 10px 9px 15px;
+	background:url(bg_input_1.png) no-repeat;
+	margin-top:6px;
+}
+.top-form a.chosen-single.chosen-default{
+display:block;
+	border:1px solid rgba(255,255,255,0.0) !important;
+	outline:none;
+	color:#7d7d7d;
+	font:18px NeoSansPro_Light;
+	width:335px;
+	padding:11px 10px 9px 15px;
+	background:url(bg_input_1.png) no-repeat;
+	margin-top:6px;
+	}

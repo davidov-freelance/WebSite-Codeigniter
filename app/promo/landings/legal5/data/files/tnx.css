@@ -1,0 +1,161 @@
+.version.tnx /* version checker */
+{
+	color: #0000F4;
+	background-color: #8AC26F;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 562px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-top: -71px;
+	margin-bottom: -39px;
+	width: 0.01px;
+}
+
+#u75_align_to_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	left: -100px;
+}
+
+#u92
+{
+	z-index: 7;
+	width: 104px;
+	margin-bottom: -5px;
+	margin-right: -10000px;
+	margin-top: 12px;
+	left: 99px;
+}
+
+#u87
+{
+	z-index: 5;
+	width: 104px;
+	margin-right: -10000px;
+	margin-top: 3px;
+	left: 218px;
+}
+
+#u81
+{
+	z-index: 3;
+	width: 104px;
+	margin-right: -10000px;
+	margin-top: 3px;
+	left: 332px;
+}
+
+#u99
+{
+	z-index: 9;
+	width: 6px;
+	margin-right: -10000px;
+	left: 506px;
+}
+
+#u107-7
+{
+	z-index: 11;
+	width: 603px;
+	min-height: 77px;
+	margin-right: -10000px;
+	margin-top: 22px;
+	left: 544px;
+}
+
+#u75,#u75-bw
+{
+	z-index: 2;
+	min-height: 111px;
+}
+
+#u214-4
+{
+	z-index: 27;
+	width: 399px;
+	background-color: transparent;
+	line-height: 42px;
+	color: #1B1464;
+	font-size: 35px;
+	text-align: center;
+	font-family: pt-sans, sans-serif;
+	font-weight: 700;
+	margin-left: 281px;
+	margin-top: 34px;
+	position: relative;
+}
+
+#u210-4
+{
+	z-index: 31;
+	width: 736px;
+	min-height: 38px;
+	background-color: transparent;
+	font-size: 22px;
+	line-height: 26px;
+	font-family: pt-sans, sans-serif;
+	font-weight: 700;
+	margin-left: 112px;
+	margin-top: 39px;
+	position: relative;
+}
+
+#pu161
+{
+	width: 0.01px;
+	margin-left: -100px;
+	margin-top: 323px;
+}
+
+#u161,#u161-bw
+{
+	z-index: 18;
+	height: 71px;
+}
+
+#u162-8
+{
+	z-index: 19;
+	min-height: 48px;
+}
+
+#u162-8-bw
+{
+	z-index: 19;
+	min-height: 48px;
+	margin-top: 11px;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 66px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

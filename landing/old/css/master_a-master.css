@@ -1,0 +1,111 @@
+#u82
+{
+	background: #2395EE url("../images/zenbg%20(1).jpg") no-repeat left top;
+	background-size: cover;
+}
+
+#u89-4
+{
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 37px;
+	text-align: left;
+	line-height: 44px;
+	font-family: pt-sans, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u132-4
+{
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	line-height: 19px;
+	font-family: pt-sans, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u92-4
+{
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 15px;
+	text-align: left;
+	line-height: 18px;
+	font-family: pt-sans, sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u133-5
+{
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	line-height: 19px;
+	font-family: pt-sans, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u134-4
+{
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	line-height: 19px;
+	font-family: pt-sans, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u201-4
+{
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	line-height: 19px;
+	font-family: pt-sans, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u132-4:hover p,#u133-5:hover p,#u133-5:hover a,#u134-4:hover p,#u201-4:hover p
+{
+	text-decoration: underline;
+}
+
+#u129
+{
+	background-color: #2395EE;
+}
+
+#u82_align_to_page,#u129_align_to_page
+{
+	position: relative;
+}
+
+#u130-4
+{
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 17px;
+	text-align: center;
+	line-height: 20px;
+	font-family: pt-sans, sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u101,#u137
+{
+	background-color: transparent;
+	position: relative;
+}
+

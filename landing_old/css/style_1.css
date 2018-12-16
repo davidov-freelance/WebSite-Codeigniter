@@ -1,0 +1,357 @@
+@import "http://webfonts.ru/import/bender.css";
+@import "http://webfonts.ru/import/beermoney.css";
+
+body{
+    font-family: 'Bender';
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.ekran_1{
+    background: SteelBlue;
+    width: 100%;
+    color: white;
+}
+
+.tochka{
+    background: url(/landing/images/background-image-overlay.png) repeat;
+    width: 100%; 
+    height: 100%;
+    padding: 50pt 0;
+}
+
+.ekran_1 .title{
+    font-size: 50pt;
+    line-height: 45pt;
+    font-weight: 900;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.33);
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.ekran_1 .dop_title{
+    font-size: 30pt;
+    line-height: 30pt;
+    font-weight: 700;
+    text-align: center;
+    float: none;
+    margin: 20pt auto 10pt;
+    -webkit-animation-delay: 1s;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.33);
+}
+
+.ekran_1 .dop_title_2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 100;
+    float: none;
+    margin: 5px auto 10px;
+    -webkit-animation-delay: 1s;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.33);
+}
+
+.ekran_1 .line{
+    background: white; 
+    width: 150px; 
+    height: 3px;
+    margin: 30px auto 0 auto;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.33);
+}
+
+.ekran_1 .arrow{
+    position: absolute;
+    right: 80px;
+    bottom: 80px;
+    font-family: 'Beer money';
+}
+.ekran_1 .arrow .image{
+    background: url(../images/arrow2.png);
+    width: 100px;
+    height: 115px;
+}
+.ekran_1 .arrow .text{
+    position: relative;
+    text-align: center;
+    right: -20px;
+    bottom: 20px;
+    font-size: 23px;
+}
+
+.button{
+    clear: both;
+    padding: 6pt 9pt;
+    background: none;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-transition-duration: 0.5s;
+}
+.button.button-white{
+     border: 1px solid #fff;
+     color: white;
+}
+.button.button-yellow{
+     border: 1px solid Gold;
+     color: black;
+     background: #edc900;
+}
+.button:hover{
+    text-transform: none;
+    text-decoration: none;
+}
+.button.button-white:hover{
+    -webkit-transition-duration: 0.5s;
+    background: white;
+    color: black;
+}
+.button.button-yellow:hover{
+    -webkit-transition-duration: 0.5s;
+    background: none;
+    color: white;
+}
+
+.ekran_1 .button:first-child{
+    margin-right: 10px;
+}
+
+/*
+*   Слайдер
+*/
+
+.slider{
+    position: relative;
+    top: 0px;
+    margin: 0 auto;
+}
+
+.slider .item{
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    background: white;
+    color: black;
+    height: 290px;
+    margin: 0 10px;
+    box-shadow: 0 0 1px #000;
+    font-size: 15px;
+    z-index: 500;
+}
+.slider .item img{
+    width: 100%;
+}
+.slider .item .price{
+    background: url(../images/price_back.png) no-repeat;
+    width: 102px;
+    height: 76px;
+    position: absolute;
+    padding: 22px 0 0;
+    font-size: 22px;
+    top: -11px;
+    left: -12px;
+    color: white;
+    font-weight:bold;
+}
+.slider .item .name{
+    padding: 15px 10px 0;
+    text-transform: uppercase;
+}
+
+.slider .toggle{
+    background: white;
+    color: black;
+    font-size: 40px;
+    line-height: 30px;
+    padding: 10px;
+    position: absolute;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0 0 1px #000;
+    top: 110px;
+    cursor: pointer;
+}
+.toggle.left{
+    left: 80px;
+}
+.toggle.right{
+    right: 80px;
+}
+
+.ekran{
+    padding: 60pt 0;
+}
+
+.ekran .title{
+    font-size: 30pt;
+    line-height: 30pt;
+    font-weight: 500;
+    //text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.33);
+    text-align: center;
+    margin-bottom: 60pt;
+}
+
+.ekran_2{
+    padding: 0 0 60pt;
+}
+
+.ekran_2 .title{
+    font-size: 20pt;
+    line-height: 25pt;
+    margin-bottom: 25pt;
+}
+
+.info-block{
+    margin-top: 60pt;
+}
+
+/*
+*   Третий экран
+*/
+.ekran_3 .title{
+    margin-bottom: 40pt;
+}
+.advantage{
+    margin-top: 25pt;
+}
+.advantage .image{
+    background: SteelBlue;
+    border-radius: 70px;
+    color: white;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+}
+.advantage .image em{
+    margin-top: 15px;
+}
+.advantage .name{
+    font-size: 20pt;
+}
+.advantage .descr{
+    font-size: 13pt;
+    line-height: 15pt;
+}
+
+/*
+*   Экран 4
+*/
+.ekran_4{
+    background: SteelBlue;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+.ekran_4 .title{
+    font-size: 35pt;
+    font-weight: 900;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.33);
+    margin: 20pt auto 0 auto;
+    text-align: center;
+}
+
+.ekran_4 .dop_title{
+    font-size: 24pt;
+    line-height: 24pt;
+    text-align: center;
+    float: none;
+    margin: 8pt auto 8pt;
+    -webkit-animation-delay: 1s;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.33);
+}
+
+.ekran_4 .button{ 
+    margin-top: 40px;
+}
+
+.form{
+    float: none;margin: 5px auto 0;
+}
+.form .col-md-12{
+    margin-top: 15px;
+}
+.form input[type="text"], .form textarea, .form select{
+    width: 100%;
+    border: 0;
+    box-shadow: 0 0 1px #000;
+    padding: 10px 10px;
+    font-size: 21px;
+    line-height: 25px;
+    color: black;
+    border-radius: 10px;
+}
+
+.ekran_4 .arrow{
+    position: absolute;
+    right: 230px;
+    bottom: 30px;
+    font-family: 'Beer money';
+}
+.ekran_4 .arrow .image{
+    background: url(../images/arrow.png);
+    width: 116px;
+    height: 101px;
+}
+.ekran_4 .arrow .text{
+    position: relative;
+    text-align: center;
+    right: -20px;
+    bottom: 20px;
+    font-size: 23px;
+}
+
+
+.ekran_5{
+    border-top: 1px solid #e0e0e0;
+    color: black;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+
+#footer{
+    border-top: 1px solid #e0e0e0;
+    margin-top: 50px;
+}
+#footer .container{    
+    padding: 20px 0;
+}
+
+/*
+*   Новости
+*/
+.news-title{
+    color: #6495ED;
+    font-size: 14px;
+}
+.news-date{
+    color: #8B8989;
+    font-size: 12px;
+}
+.news-descr{
+    color: #8B8989;
+    font-size: 14px;
+}
+.news-line{
+    margin: 10px 0;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+@media (min-width: 100px) and (max-width: 600px) {
+    .ekran_4 .title{
+        font-size: 32pt;
+        line-height: 32pt;
+    }
+    .ekran_4 .dop_title{
+        margin-top: 10pt;
+        font-size: 18pt;
+        line-height: 18pt;
+        text-shadow: 0;
+    }
+}

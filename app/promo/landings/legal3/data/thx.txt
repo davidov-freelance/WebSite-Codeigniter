@@ -1,0 +1,58 @@
+<?php
+	require_once 'libs/overads.php';
+	$overads = new Overads({GOAL_ID});
+	$insertRequest = $overads->insertRequest('lead', $_POST["Order"]);
+?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Бесплатная юридическая консультация — защити свои права!</title>
+	<link rel="stylesheet" type="text/css" href="files/style.css" />			
+	<link rel="stylesheet" type="text/css" href="files/reset-min.css" />			
+	<!--[if lt IE 9]><script src="files/html5.js"></script><![endif]-->
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="files/jquery.arcticmodal.js"></script>
+    <script src="files/jquery.jgrowl.js"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(document).on('click', '.modal_btn', function(){
+			$('#small-modal').arcticmodal();
+		});
+	});
+    </script>
+   
+    <link rel="stylesheet" type="text/css" href="files/jquery.arcticmodal.css">
+    <link rel="stylesheet" type="text/css" href="files/jquery.jgrowl.css">
+	<script type="text/javascript" src="files/script.js"></script>
+</head>
+<body>
+							
+<!-- BEGIN BODY -->
+
+<!-- BEGIN HEADER -->
+
+	<header>
+		<div class="header">
+			<a href="/" class="logo"><img src="files/logo.png" alt=""></a>
+			<div class="number_block">
+			</div>
+			<div class="clear"></div>
+		</div>
+	</header>
+	
+<!-- HEADER EOF   -->	
+
+
+	<div class="wrapper_1">
+		<div class="block_consultation">
+			<p class="homepage_1">Спасибо за ваше обращение.</p>
+			<p class="homepage_2">Мы с вами свяжемся в самое ближайшее время и проконсультируем по всем вопросам.</p>
+		</div>			
+	</div>
+
+</body>
+</html>

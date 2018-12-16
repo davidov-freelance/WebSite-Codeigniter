@@ -1,0 +1,9 @@
+addDefaultCharset utf8;
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(index\.php|app|landing|robots\.txt|favicon\.png|files|legal|politic.html|test|httploaders.txt|site)
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+php_flag display_errors off
+php_value error_reporting -1

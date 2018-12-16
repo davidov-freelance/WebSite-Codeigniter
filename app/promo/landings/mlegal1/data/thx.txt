@@ -1,0 +1,148 @@
+<?php
+	require_once 'libs/overads.php';
+	$overads = new Overads({GOAL_ID});
+	$insertRequest = $overads->insertRequest('lead', $_POST["Order"]);
+?>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=620px">
+	<meta charset="utf-8">
+	<title>Бесплатная юридическая консультация</title>
+	<link rel="stylesheet" type="text/css" href="/files/index.css" media="all">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="wrapper-inner-head">
+			<div class="logo">
+				<a href="/">
+					<img src="/files/logo.jpg" alt="logo"></a>
+			</div>
+		</div>
+		<div class="wrapper-inner">
+			<header class="header">
+				<div class="block-inner">
+					<div class="head-title">
+						<h1>
+							Ваша заявка принята!</h1>
+						<div>
+				  <div class="minutes">
+						<p>В ближайшее время с вами свяжется юрист</p>
+						<p>и бесплатно проконсультирует вас</p>
+						<p>по вашему вопросу.</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+					</div>
+						</div>
+					</div>
+				</div>
+				<div class="rem-inner">
+
+					<div class="big-title tinos"></div>
+					<div class="minutes"></div>
+				</div>
+			</header>
+			<div class="form">
+				<div id="form-wrap">
+					<div class="form-sub-title tinos"></div>
+					<iframe src="index_1.html" name="submitbin" class="submitbin" id="submitbin" style="display: none;"></iframe>
+					<iframe src="index_2.html" name="countersframe" class="countersframe" id="countersframe" style="display: none;"></iframe>
+					<input id="dirty" value="" type="hidden">
+				</div>
+			</div>
+			<section class="first">
+				<div class="title-first tinos">
+					Закон на Вашей<br>
+					стороне!</div>
+				<div class="list list1">
+					<div class="list-title">
+						В какое время вы отвечаете на вопросы?</div>
+					<p class="list-text">
+						Все вопросы принимаются круглосуточно. Квалифицированный специалист свяжется с Вами в течение 10 минут и ответит на ваши вопросы.
+					</p>
+				</div>
+				<div class="list list2">
+					<div class="list-title">
+						Правда-ли что консультации бесплатные?</div>
+					<p class="list-text">
+						Консультации проводятся в рамках Федерального закона от 21.11.2011 N 324-ФЗ "О бесплатной юридической помощи в Российской Федерации" и Государственной Программы Юридической поддержки населения.
+					</p>
+				</div>
+				<div class="list list3">
+					<div class="list-title">
+						Насколько это все конфиденциально?</div>
+					<p class="list-text">
+						В соответствии с Федеральным законом Российской Федерации от 27 июля 2006 г. N 152 "О персональных данных" - мы гарантируем полную конфиденциальность всех консультаций
+					</p>
+				</div>
+				<div class="list list4">
+					<div class="list-title">
+						В каких направлениях предоставляются консультации?</div>
+					<p class="list-text">
+						Мы консультируем как физических, так и юридических лиц, по абсолютно любым правовым аспектам, в т.ч. нестандартным спорам и ситуациям.
+					</p>
+				</div>
+				<div class="under-title tinos">
+					Свыше 15 000 бесплатных квалифицированных<br>
+					юридических консультаций в августе.</div>
+			</section>
+			<div class="under">
+			</div>
+			<section class="comments">
+				<div class="comment">
+					<div class="comment-title">
+						Задолженность по кредиту</div>
+					<div class="comment-text">
+						Была проблема с банком относительно задолженности по кредиту. Спасибо за консультацию. Вопрос решен, грамотно и в моих интересах…
+					</div>
+					<div class="comment-name">
+						Игорь, Новгород</div>
+				</div>
+				<div class="comment">
+					<div class="comment-title">
+						Продажа автомобиля</div>
+					<div class="comment-text">
+						Оформлял документы купли-продажи машины. Обратился за помощью, проконсультировали, но возиться самому со всеми документами - это не для меня. Порекомендовали специалиста, который мне все оформил, быстро и качественно, за что благодарю!
+					</div>
+					<div class="comment-name">
+						Алексей, Ижевск</div>
+				</div>
+				<div class="comment">
+					<div class="comment-title">
+						Интелектуальная собственность</div>
+					<div class="comment-text">
+						Хоть я и юрист, но по вопросу интеллектуальной собственности потребовалась поддержка узкоспециализированного эксперта. Спасибо Сергею Петровичу за квалифицированную помощь!
+					</div>
+					<div class="comment-name">
+						Карина, Москва</div>
+				</div>
+			</section>
+		</div>
+		<footer class="footer">
+			<div class="block-inner" style="color: white;">
+				<p>
+					<a href="policy.html" data-about="1" class="footer-link policy">Политика конфиденциальности</a></p>
+
+				<p>
+					<span class="block">ООО "СК Мастер" ИНН 7720772726, ОГРН 1137746068294111397
+Москва, ул. Братская, д.21</span></p>
+
+			</div>
+		</footer>
+	</div>
+
+
+</body>
+</html>

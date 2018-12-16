@@ -1,0 +1,116 @@
+/* ::::: http://legal-club.com/legal_mobile/css/reset.css ::::: */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; font-size: 100%; vertical-align: baseline; background: none repeat scroll 0% 0% transparent; }
+body { line-height: 1; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+blockquote::before, blockquote::after, q::before, q::after { content: none; }
+a { margin: 0px; padding: 0px; font-size: 100%; vertical-align: baseline; background: none repeat scroll 0% 0% transparent; }
+input, select { vertical-align: middle; }
+/* ::::: http://legal-club.com/legal_mobile/css/styles.css ::::: */
+
+* { max-height: 999999px; }
+body {  }
+body { background: url('bg.jpg') repeat scroll 0% 0% transparent; }
+.wrapper { font-family: Arial; font-size: 14px; background: url('bghead.jpg') repeat-x scroll 0% 0% transparent; color: rgb(46, 51, 57); }
+.wrapper-inner-head { background: url('header.png') no-repeat scroll 0% 0% transparent; height: 125px; width: 620px; margin: 0px auto; }
+.wrapper-inner { width: 620px; margin: 0px auto; background: none repeat scroll 0% 0% rgb(255, 255, 255); border-radius: 0px 0px 25px 25px; }
+.header { color: rgb(255, 255, 255); margin-bottom: 30px; background: url('woman.png') no-repeat scroll 100% 100% rgb(255, 255, 255); }
+.header::after { display: block; clear: both; content: ""; }
+.block-inner { max-width: 620px; width: 100%; margin: 0px auto; }
+.head-title { font-family: Arial; text-align: center; margin-bottom: 35px; }
+.head-title h1 { font-size: 18px; margin-bottom: 5px; color: rgb(22, 126, 182); font-weight: normal; }
+.head-title div { font-size: 16px; color: rgb(245, 71, 77); }
+.logo { text-align: center; padding-top: 12px; }
+.footer { padding: 20px 0px 10px; margin-bottom: 40px; background-color: black; }
+.footer a { font-size: 12px; color: white; text-decoration: underline; margin-bottom: 10px; display: block; }
+.footer a:hover { text-decoration: underline; }
+.tinos { font-family: "Tinos",serif; color: rgb(4, 81, 123); }
+.big-title { font-size: 45px; font-weight: bold; color: rgb(4, 81, 123); margin-bottom: 10px; }
+.form-sub-title { font-size: 32px; text-align: center; color: rgb(4, 81, 123); }
+.form-sub-title span { color: rgb(245, 75, 80); font-size: 45px; font-family: Arial; text-transform: uppercase; }
+#form-wrap { background: url('form-bg.jpg') no-repeat scroll 0% 0% transparent; width: 535px; margin: 0px auto; padding-top: 20px; }
+.submit { background: url('submit.jpg') no-repeat scroll 0% 0% transparent; width: 382px ! important; height: 57px ! important; border: medium none ! important; cursor: pointer; margin: 0px auto; float: none ! important; display: block; }
+.field-contactpreference { display: none; }
+section { width: 536px; margin: 0px auto; }
+.under { background: url('sectionbg.jpg') no-repeat scroll 50% 100% transparent; height: 62px; margin-bottom: 20px; }
+.title-first { font-size: 52px; margin-bottom: 40px; line-height: 45px; }
+.list { padding-left: 120px; font-size: 14px; margin-bottom: 40px; }
+.list-title { font-size: 18px; font-weight: bold; margin-bottom: 15px; }
+.list-text { line-height: 16px; }
+.list1 { background: url('i1.jpg') no-repeat scroll 0px 0px transparent; }
+.list2 { background: url('i2.jpg') no-repeat scroll 0px 0px transparent; }
+.list3 { background: url('i3.jpg') no-repeat scroll 0px 0px transparent; }
+.list4 { background: url('i4.jpg') no-repeat scroll 0px 0px transparent; }
+.under-title { font-size: 22px; text-align: center; }
+.comments { padding-bottom: 40px; }
+.comment { height: 127px; background: url('comment.jpg') no-repeat scroll 0% 0% transparent; padding: 25px 30px; margin-bottom: 20px; }
+.comment-title { font-size: 18px; font-weight: bold; line-height: 18px; margin-bottom: 15px; }
+.comment-text { font-size: 14px; font-style: italic; margin-bottom: 10px; }
+.comment-name { font-size: 14px; font-style: italic; color: rgb(4, 81, 123); }
+.remaning { font-family: "Marck Script",cursive; font-size: 18px; color: rgb(134, 150, 147); position: relative; margin-bottom: 30px; }
+.arr { position: absolute; top: 56px; left: 195px; }
+.minutes { font-size: 18px; color: rgb(246, 84, 90); }
+.online { vertical-align: middle; margin-bottom: 5px; }
+select { width: 448px; margin: 0px auto; display: block; }
+.row.field-fname input, .step2 input { height: 55px; border: 1px solid rgb(4, 81, 123); border-radius: 5px; width: 448px; font-size: 18px; text-indent: 18px; color: rgb(99, 99, 99); font-weight: lighter; margin: 0px auto; display: block; }
+.step1 .submit { display: none; }
+.row { margin: 0px auto 10px; font-size: 18px; }
+.row.field-contactpreference label { width: 50%; float: left; }
+.row.field-contactpreference .radio { float: left; width: 140px; }
+.row.field-contactpreference .radio input { width: auto; height: auto; margin: -2px 0px 0px; border: medium none; }
+.row.field-contactpreference::after, #form-wrap::after, .row::after, .second-section::after, .third-section::after, .text-bubbles-inner::after, .questions-inner::after { clear: both; content: ""; display: block; }
+.rem-inner { width: 77%; margin: 0px auto; }
+p { line-height: 21px; }
+.footer .block-inner { text-align: center; }
+#thankyou { text-align: center; }
+.radio.radio-row, .radio.radio-row .input { margin-right: 10px; }
+.step3 p { text-align: center; }
+.step3 .field-question label { display: none; }
+textarea { width: 80%; margin: 0px auto; display: block; border-radius: 5px; height: 165px; resize: none; }
+select { height: 50px; background: url('select.jpg') no-repeat scroll 98% 50% rgb(255, 255, 255); padding: 10px 5px; width: 465px; }
+label { font-size: 14px; padding-left: 44px; margin-bottom: 10px; display: block; line-height: 18px; }
+#thankyou { text-align: center; font-size: 50px; margin-top: 165px; }
+#thankyou p { line-height: 50px; }
+/* ::::: http://legal-club.com/legal_mobile/css/chosen.css ::::: */
+
+.chosen-container { position: relative; vertical-align: middle; font-size: 13px; -moz-user-select: none; width: 450px ! important; margin: 0px auto; display: block; }
+.chosen-container .chosen-drop { margin-left: 0px!important; position: absolute; top: 100%; left: -9999px; z-index: 1010; box-sizing: border-box; width: 100%; border-right: 1px solid rgb(4, 81, 123); border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(4, 81, 123) rgb(4, 81, 123); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background: none repeat scroll 0% 0% rgb(255, 255, 255); box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15); }
+.chosen-container a { cursor: pointer; }
+.chosen-container-single .chosen-single { position: relative; display: block; overflow: hidden; padding: 0px 0px 0px 8px; height: 55px; border: 1px solid rgb(4, 81, 123); border-radius: 5px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68); text-decoration: none; white-space: nowrap; line-height: 24px; }
+.chosen-container-single .chosen-default { color: rgb(153, 153, 153); }
+.chosen-container-single .chosen-single span { display: block; overflow: hidden; margin-right: 75px; text-overflow: ellipsis; white-space: nowrap; font-size: 16px; color: rgb(99, 99, 99); line-height: 59px; }
+.chosen-container-single .chosen-single div { position: absolute; top: 0px; right: 0px; display: block; width: 64px; height: 100%; }
+.chosen-container-single .chosen-single div b { display: block; width: 100%; height: 100%; background: url('select.jpg') no-repeat scroll 60% 50% transparent; }
+.chosen-container-single .chosen-search { position: relative; z-index: 1010; margin: 0px; padding: 3px 4px; white-space: nowrap; }
+.chosen-search { display: none; }
+.chosen-container-single .chosen-search input[type="text"] { box-sizing: border-box; margin: 1px 0px; padding: 4px 20px 4px 5px; width: 100%; height: auto; outline: 0px none; border: 1px solid rgb(170, 170, 170); background: url('chosen-sprite.png') no-repeat scroll 100% -20px transparent; font-size: 1em; font-family: sans-serif; line-height: normal; border-radius: 0px; }
+.chosen-container-single .chosen-drop { margin-top: -1px; border-radius: 0px 0px 4px 4px; background-clip: padding-box; }
+.chosen-container-single.chosen-container-single-nosearch .chosen-search { position: absolute; left: -9999px; }
+.chosen-container .chosen-results { position: relative; overflow-x: hidden; overflow-y: auto; margin: 0px 4px 4px 0px; padding: 0px 0px 0px 4px; max-height: 240px; }
+@media not all, only screen and (min-resolution: 144dpi) {
+	.chosen-rtl .chosen-search input[type="text"], .chosen-container-single .chosen-single abbr, .chosen-container-single .chosen-single div b, .chosen-container-single .chosen-search input[type="text"], .chosen-container-multi .chosen-choices .search-choice .search-choice-close, .chosen-container .chosen-results-scroll-down span, .chosen-container .chosen-results-scroll-up span { background-image: url('chosen-sprite@2x.png') ! important; background-size: 52px 37px ! important; background-repeat: no-repeat ! important; }
+}
+.chosen-container-single .chosen-single{
+	width: 450px!important;
+	margin: 6px 4px 3px 0px!important;
+}
+/* ::::: http://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic ::::: */
+
+@font-face {
+	font-family: "Marck Script";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Marck Script"), local("MarckScript-Regular"), url('o_d1nazvofooblbvtw3bcuxreehhji4geuji9ob_ak4.woff2') format("woff2"), url('o_d1nazvofooblbvtw3bcoran7velc11_xip9rz-hms.woff') format("woff");
+}
+/* ::::: http://fonts.googleapis.com/css?family=Tinos:700&subset=cyrillic ::::: */
+
+@font-face {
+	font-family: "Tinos";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Tinos Bold"), local("Tinos-Bold"), url('0wwa16a6kmxqekjjmuozrfeszw2xoq-xsnqo47m55da.woff2') format("woff2"), url('fmi_x6jv6srluls2hfpvdveszw2xoq-xsnqo47m55da.woff') format("woff");
+}
+/* ::::: http://legal-club.com/js_css/tipTip.css ::::: */
+
+@media not all {
+}

@@ -1,0 +1,209 @@
+<?php
+	require_once 'libs/overads.php';
+	$overads = new Overads({GOAL_ID}, {TERM_GROUP});
+?>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=620px">
+	<meta charset="utf-8">
+	<title>Бесплатная юридическая консультация</title>
+	<link rel="stylesheet" type="text/css" href="/files/chosen.style.css" media="all">
+	<link rel="stylesheet" type="text/css" href="/files/index.css" media="all">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/files/chosen.jquery.js" type="text/javascript"></script>
+	
+</head>
+<body>
+	<div class="wrapper">
+		<div class="wrapper-inner-head">
+			<div class="logo">
+				<a href="/">
+					<img src="/files/logo.jpg" alt="logo"></a>
+			</div>
+		</div>
+		<div class="wrapper-inner">
+			<header class="header">
+				<div class="block-inner">
+					<div class="head-title">
+							<h1><?=$overads->data->title?></h1>
+						<div>
+							При поддержке Правительства Российской Федерации</div>
+					</div>
+				</div>
+				<div class="rem-inner">
+					<div class="remaning">
+						<img class="online" src="/files/online.jpg" alt="">
+						<br>
+						В настоящее время в эфире<br>
+						9 дежурных юристов
+						<img src="/files/arr.jpg" class="arr">
+					</div>
+					<div class="big-title tinos">
+						Срочная<br>
+						Юридическая<br>
+						Помощь</div>
+					<div class="minutes">
+						Бесплатная консультация в <?=(isset($api->city->name2) ? $api->city->name2 : "Юридическом центре");?></div>
+				</div>
+			</header>
+			<div class="form">
+				<div id="form-wrap">
+					<div class="form-sub-title tinos">
+						Задайте вопрос, получите исчерпывающий ответ.<br><span>Бесплатно</span>
+					</div>
+									
+					<form action="thx.php" method="post" class="niceform">
+					
+					<div class="step step1">
+						<div class="row field-fname">
+							<label for="fname">Ф.И.О.</label>
+							<div class="input">
+								<input value="" autocomplete="off" name="Order[fio]" id="fname" placeholder="Фамилия, Имя, Очество" type="text" required></div>
+						</div>
+						<div class="row actions">
+							<input value="" class="submit" s="step1" type="submit">
+						</div>
+					</div>
+					<div class="row">
+					<label for="phone">
+								Откуда вы</label>
+					<select class="input-medium countrySelect" data-placeholder="Выберите страну..."  name="Order[country_id]" data-live-search="true"></select>
+					
+							<select class="citySelect" data-placeholder="Выберите город..."  name="Order[city_id]" data-live-search="true"></select>
+					</div>
+					<div class="step step2" style="">
+						<div class="row field-phone">
+							<label for="phone">
+								Телефон</label>
+							<div class="input">
+								<input autocomplete="off" name="Order[phone]" id="phone" value="" placeholder="Ваш Телефон" type="text" required></div>
+						</div>
+						
+						<div class="row field-phone">
+							<label for="q">Вопрос</label>
+							<div class="input">
+								<input autocomplete="off" name="Order[param1]" id="q" value="" placeholder="Напишите ваш вопрос" type="text"></div>
+						</div>
+						
+		<div class="row field-town">
+
+		
+		<div id="towninputwrap" class="towninputwrap" style="display: none;"><input value="" autocomplete="off" name="townx" id="towninput" class="towninput" type="text"></div>
+		</div>
+		</div>	
+								<div class="row action">
+							<input value="" class="submit" s="step2" type="submit">
+						</div>
+					</div>
+					<div class="step step3" style="display: none;">
+						<div id="thankyou">
+							<p>
+								<strong>Спасибо, адвокат свяжется с вами для уточнения деталей.</strong><br>
+								<br>
+							</p>
+						</div>
+						<p>
+							Для ускорения процессы, вы можете описать суть вашего вопроса вкратце</p>
+						<div class="row field-question">
+							<label for="question">
+								Вопрос:</label>
+							<div class="textarea">
+								<textarea name="question"></textarea></div>
+						</div>
+						<div class="row action">
+							<input value="" class="submit" s="step3" type="submit">
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+			<section class="first">
+				<div class="title-first tinos">
+					Закон на Вашей<br>
+					стороне!</div>
+				<div class="list list1">
+					<div class="list-title">
+						В какое время вы отвечаете на вопросы?</div>
+					<p class="list-text">
+						Все вопросы принимаются круглосуточно. Квалифицированный специалист свяжется с Вами в течение 10 минут и ответит на ваши вопросы.
+					</p>
+				</div>
+				<div class="list list2">
+					<div class="list-title">
+						Правда-ли что консультации бесплатные?</div>
+					<p class="list-text">
+						Консультации проводятся в рамках Федерального закона от 21.11.2011 N 324-ФЗ "О бесплатной юридической помощи в Российской Федерации" и Государственной Программы Юридической поддержки населения.
+					</p>
+				</div>
+				<div class="list list3">
+					<div class="list-title">
+						Насколько это все конфиденциально?</div>
+					<p class="list-text">
+						В соответствии с Федеральным законом Российской Федерации от 27 июля 2006 г. N 152 "О персональных данных" - мы гарантируем полную конфиденциальность всех консультаций
+					</p>
+				</div>
+				<div class="list list4">
+					<div class="list-title">
+						В каких направлениях предоставляются консультации?</div>
+					<p class="list-text">
+						Мы консультируем как физических, так и юридических лиц, по абсолютно любым правовым аспектам, в т.ч. нестандартным спорам и ситуациям.
+					</p>
+				</div>
+				<div class="under-title tinos">
+					Свыше 15 000 бесплатных квалифицированных<br>
+					юридических консультаций в августе.</div>
+			</section>
+			<div class="under">
+			</div>
+			<section class="comments">
+				<div class="comment">
+					<div class="comment-title">
+						Задолженность по кредиту</div>
+					<div class="comment-text">
+						Была проблема с банком относительно задолженности по кредиту. Спасибо за консультацию. Вопрос решен, грамотно и в моих интересах…
+					</div>
+					<div class="comment-name">
+						Игорь, Новгород</div>
+				</div>
+				<div class="comment">
+					<div class="comment-title">
+						Продажа автомобиля</div>
+					<div class="comment-text">
+						Оформлял документы купли-продажи машины. Обратился за помощью, проконсультировали, но возиться самому со всеми документами - это не для меня. Порекомендовали специалиста, который мне все оформил, быстро и качественно, за что благодарю!
+					</div>
+					<div class="comment-name">
+						Алексей, Ижевск</div>
+				</div>
+				<div class="comment">
+					<div class="comment-title">
+						Интелектуальная собственность</div>
+					<div class="comment-text">
+						Хоть я и юрист, но по вопросу интеллектуальной собственности потребовалась поддержка узкоспециализированного эксперта. Спасибо Сергею Петровичу за квалифицированную помощь!
+					</div>
+					<div class="comment-name">
+						Карина, Москва</div>
+				</div>
+			</section>
+		</div>
+		<footer class="footer">
+			<div class="block-inner" style="color: white;">
+				<p>
+					<a href="policy.html" data-about="1" class="footer-link policy">Согласие на обработку данных и политика конфидециальности.</a></p>
+
+				<p>
+					<span class="block">ООО "СК Мастер" ИНН 7720772726, ОГРН 1137746068294111397
+Москва, ул. Братская, д.21</span></p>
+
+			</div>
+		</footer>
+	</div>
+
+
+</body>
+
+	<script src="http://cdn.jsdelivr.net/jquery.validation/1.14.0/jquery.validate.min.js"></script>
+	<script src="<?=$overads->script_url;?>landing.js?hash=<?=$overads->hash;?>&goal_id=<?=$overads->goalId;?>"></script>
+</html>

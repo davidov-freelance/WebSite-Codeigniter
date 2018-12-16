@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta name="viewport" content="width=620px">
+	<meta charset="utf-8" />
+	<title>Бесплатная юридическая консультация</title>
+	<link type="text/css" rel="stylesheet" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" href="css/styles.css" />
+	<link type="text/css" rel="stylesheet" href="css/chosen.css" />
+	<link href='http://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Tinos:700&subset=cyrillic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="wrapper-inner-head">
+			<div class="logo">
+				<a href="#">
+					<img src="images/logo.jpg" alt="logo"></a>
+			</div>
+		</div>
+		<div class="wrapper-inner">
+			<header class="header">
+				<div class="block-inner">
+					<div class="head-title">
+						<h1>
+							Бесплатная юридическая консультация</h1>
+						<div>
+							При поддержке Правительства Российской Федерации</div>
+					</div>
+				</div>
+				<div class="rem-inner">
+					<div class="remaning">
+						<img class="online" src="images/online.jpg" alt="">
+						<br>
+						В настоящее время в эфире<br>
+						9 дежурных юристов
+						<img src="images/arr.jpg" class="arr">
+					</div>
+					<div class="big-title tinos">
+						Срочная<br>
+						Юридическая<br>
+						Помощь</div>
+					<div class="minutes">
+						Бесплатная консультация<br>
+						каждые 5 мин.</div>
+				</div>
+			</header>
+			<div class="form">
+				<div id="form-wrap">
+					<div class="form-sub-title tinos">
+						Задайте вопрос, получите исчерпывающий ответ.<br><span>Бесплатно</span>
+					</div>
+					
+			
+		<script type="text/javascript" src="/js_css/jquery.min.js"></script>
+		<script type="text/javascript" src="/js_css/jquery.uniform.min.js"></script>
+		<script type="text/javascript" src="/js_css/jquery.tipTip.js"></script>
+		<script type="text/javascript" src="/js_css/jquery.maskedinput.min.js"></script>
+		<script type="text/javascript" src="/js_css/form_validate.js"></script>
+		<script type="text/javascript" src="/js_css/jquery.lwtCountdown-1.0.js"></script>	
+
+		<link rel="stylesheet" type="text/css" href="/js_css/tipTip.css" />
+			<script src="js/chosen.jquery.min.js"></script>
+
+	<script src="js/_main.js"></script>
+
+	<script src="js/html5shiv.js"></script>
+	
+			<script type="text/javascript">
+			$().ready(function() 
+			{
+				$("[name=phone]").mask("8(999)999-9999");
+				$("form").submit(chkForm);
+			});
+			</script>	
+				
+					<form action="" method="post" class="niceform">
+					
+					<input type="hidden" name="thankYouURL" value="">
+					<div class="step step1">
+						<div class="row field-topic">
+							<label for="topic">
+								:
+							</label>
+							<div class="input">
+								<div name="topic" id="offerselectwrap" class="offerselectwrap">
+									<select size="1" name="offer" id="offerselect" class="offerselect">
+										<option></option>
+										<option value="Личный адвокат">Личный адвокат</option>
+										<option value="Семейный адвокат">Семейный адвокат</option>
+										<option value="Семейные споры">Семейные споры</option>
+										<option value="Расторжение брака без вашего участия">Расторжение брака без вашего участия</option>
+										<option value="Жилищные споры">Жилищные споры</option>
+										<option value="Сопровождение адвоката">Сопровождение адвоката</option>
+										<option value="Налоговые правоотношения">Налоговые правоотношения</option>
+										<option value="Страховые споры">Страховые споры</option>
+										<option value="Защита прав потребителей">Защита прав потребителей</option>
+										<option value="Налоговый консультант">Налоговый консультант</option>
+										<option value="Уголовные дела">Уголовные дела</option>
+										<option value="Гражданские дела">Гражданские дела</option>
+										<option value="Юридические услуги в недвижимости">Юридические услуги в недвижимости</option>
+										<option value="Долевое участие в строительстве">Долевое участие в строительстве</option>
+										<option value="Ведение дел о наследовании имущества">Ведение дел о наследовании имущества</option>
+										<option value="Юридическая помощь при ДТП">Юридическая помощь при ДТП</option>
+										<option value="Авторское право">Авторское право</option>
+										<option value="Конфликты интернет-среды">Конфликты интернет-среды</option>
+										<option value="Юридическое сопровождение интернет-проектов">Юридическое сопровождение интернет-проектов</option>
+										<option value="Исполнительное производство">Исполнительное производство</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="row field-contactpreference">
+							<label for="topic">
+								Я предпочитаю чтобы мне ответили:
+							</label>
+							<div class="radio radio-row radio-phone">
+								<span class="input">
+									<input checked="checked" type="radio" name="contactpreference" value="phone"></span><span class="radio-label">По телефону</div>
+							<div class="radio radio-row radio-email">
+								<span class="input">
+									<input type="radio" name="contactpreference" value="email"></span><span class="radio-label">По эл.почте</div>
+						</div>
+						<div class="row field-fname">
+							<label for="fname">
+								Ваше Имя:
+							</label>
+							<div class="input">
+								<input type="text" autocomplete="off" name="fname" id="fname" placeholder="Фамилия, Имя, Очество"></div>
+						</div>
+						<div class="row actions">
+							<input type="submit" value="" class="submit" s="step1">
+						</div>
+					</div>
+					<div class="step step2" style="display: none;">
+						<div class="row field-phone">
+							<label for="phone">
+								Телефон</label>
+							<div class="input">
+								<input autocomplete="off" type="text" name="phone" id="phone" value='' placeholder='Ваш Телефон'></div>
+						</div>
+						<div class="row field-email">
+							<label for="email">
+								Эл. Почта</label>
+							<div class="input">
+								<input autocomplete="off" type="text" name="email" id="email"></div>
+						</div>
+						
+		<div class="row field-town">
+		<label for="townselect">Город</label>
+		<div class="input">
+		<div id="townselectwrap" class="townselectwrap">
+		<select size="1" name="town" id=townselect class="townselect">
+		<option value="Москва">Москва</option>
+<option value="Другой город">Другой город</option>
+		</select>
+		</div>
+		<div id="towninputwrap" class="towninputwrap" style="display:none;"><input autocomplete="off" type="text" name="townx" id="towninput" class="towninput"></div>
+		</div>
+		</div>	
+								<div class="row action">
+							<input type="submit" value="" class="submit" s="step2">
+						</div>
+					</div>
+					<div class="step step3" style="display: none;">
+						<div id="thankyou">
+							<p>
+								<strong>Спасибо, адвокат свяжется с вами для уточнения деталей.</strong><br>
+								<br>
+							</p>
+						</div>
+						<p>
+							Для ускорения процессы, вы можете описать суть вашего вопроса вкратце</p>
+						<div class="row field-question">
+							<label for="question">
+								Вопрос:</label>
+							<div class="textarea">
+								<textarea name="question"></textarea></div>
+						</div>
+						<div class="row action">
+							<input type="submit" value="" class="submit" s="step3">
+						</div>
+					</div>
+					</form>
+					<iframe name="submitbin" class="submitbin" id="submitbin" style="display: none;"></iframe>
+					<iframe name="countersframe" class="countersframe" id="countersframe" style="display: none;"></iframe>
+					<input type="hidden" id="dirty" value="">
+				</div>
+			</div>
+			<section class="first">
+				<div class="title-first tinos">
+					Закон на Вашей<br>
+					стороне!</div>
+				<div class="list list1">
+					<div class="list-title">
+						В какое время вы отвечаете на вопросы?</div>
+					<p class="list-text">
+						Все вопросы принимаются круглосуточно. Квалифицированный специалист свяжется с Вами в течение 10 минут и ответит на ваши вопросы.
+					</p>
+				</div>
+				<div class="list list2">
+					<div class="list-title">
+						Правда-ли что консультации бесплатные?</div>
+					<p class="list-text">
+						Консультации проводятся в рамках Федерального закона от 21.11.2011 N 324-ФЗ "О бесплатной юридической помощи в Российской Федерации" и Государственной Программы Юридической поддержки населения.
+					</p>
+				</div>
+				<div class="list list3">
+					<div class="list-title">
+						Насколько это все конфиденциально?</div>
+					<p class="list-text">
+						В соответствии с Федеральным законом Российской Федерации от 27 июля 2006 г. N 152 "О персональных данных" - мы гарантируем полную конфиденциальность всех консультаций
+					</p>
+				</div>
+				<div class="list list4">
+					<div class="list-title">
+						В каких направлениях предоставляются консультации?</div>
+					<p class="list-text">
+						Мы консультируем как физических, так и юридических лиц, по абсолютно любым правовым аспектам, в т.ч. нестандартным спорам и ситуациям.
+					</p>
+				</div>
+				<div class="under-title tinos">
+					Свыше 15 000 бесплатных квалифицированных<br>
+					юридических консультаций в августе.</div>
+			</section>
+			<div class="under">
+			</div>
+			<section class="comments">
+				<div class="comment">
+					<div class="comment-title">
+						Задолженность по кредиту</div>
+					<div class="comment-text">
+						Была проблема с банком относительно задолженности по кредиту. Спасибо за консультацию. Вопрос решен, грамотно и в моих интересах…
+					</div>
+					<div class="comment-name">
+						Игорь, Новгород</div>
+				</div>
+				<div class="comment">
+					<div class="comment-title">
+						Продажа автомобиля</div>
+					<div class="comment-text">
+						Оформлял документы купли-продажи машины. Обратился за помощью, проконсультировали, но возиться самому со всеми документами - это не для меня. Порекомендовали специалиста, который мне все оформил, быстро и качественно, за что благодарю!
+					</div>
+					<div class="comment-name">
+						Алексей, Ижевск</div>
+				</div>
+				<div class="comment">
+					<div class="comment-title">
+						Интелектуальная собственность</div>
+					<div class="comment-text">
+						Хоть я и юрист, но по вопросу интеллектуальной собственности потребовалась поддержка узкоспециализированного эксперта. Спасибо Сергею Петровичу за квалифицированную помощь!
+					</div>
+					<div class="comment-name">
+						Карина, Москва</div>
+				</div>
+			</section>
+		</div>
+		<footer class="footer">
+			<div class="block-inner" style="color: white;">
+				<p>
+					<a href="./policy.html" data-about="1" class="footer-link policy">Политика конфиденциальности</a></p>
+				<p>
+					Copyright © 2012-2015. Все права защищены.</p>
+				<p>
+					<span class="block">127006, Москва, Весковский переулок, д. 3 </span><span class="block">По всем вопросам пишите на email: <a class="mail-link" href="mailto:info@legal-club.com">info@legal-club.com</a></span></p>
+				<p>
+					ОГРН: 1135074017946 ИНН 5036136029</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

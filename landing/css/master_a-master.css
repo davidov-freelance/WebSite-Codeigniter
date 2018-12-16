@@ -1,0 +1,139 @@
+#u89-4
+{
+	background-color: transparent;
+	line-height: 44px;
+	color: #FFFFFF;
+	font-size: 37px;
+	text-align: center;
+	font-family: pt-sans, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u132-4
+{
+	background-color: transparent;
+	line-height: 20px;
+	color: #FFFFFF;
+	font-size: 17px;
+	text-align: center;
+	font-family: pt-sans, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u133-5
+{
+	background-color: transparent;
+	line-height: 19px;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	font-family: pt-sans, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u133-3
+{
+	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+}
+
+#u133
+{
+	font-size: 17px;
+	line-height: 20px;
+}
+
+#u134-4
+{
+	background-color: transparent;
+	line-height: 20px;
+	color: #FFFFFF;
+	font-size: 17px;
+	text-align: center;
+	font-family: pt-sans, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u201-4
+{
+	background-color: transparent;
+	line-height: 20px;
+	color: #FFFFFF;
+	font-size: 17px;
+	text-align: center;
+	font-family: pt-sans, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u773-4
+{
+	background-color: transparent;
+	line-height: 20px;
+	color: #FFFFFF;
+	font-size: 17px;
+	text-align: center;
+	font-family: pt-sans, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u132-4:hover p,#u133-5:hover p,#u133-5:hover span,#u134-4:hover p,#u201-4:hover p,#u773-4:hover p
+{
+	text-decoration: underline;
+}
+
+#u766
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #000000;
+	opacity: 0.44;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=44)";
+	filter: alpha(opacity=44);
+	position: relative;
+}
+
+#u92-4
+{
+	background-color: transparent;
+	line-height: 18px;
+	color: #FFFFFF;
+	font-size: 15px;
+	text-align: left;
+	font-family: pt-sans, sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+#u82,#u129
+{
+	background-color: #2395EE;
+}
+
+#u82_align_to_page,#u129_align_to_page
+{
+	position: relative;
+}
+
+#u130-4
+{
+	background-color: transparent;
+	line-height: 20px;
+	color: #FFFFFF;
+	font-size: 17px;
+	text-align: center;
+	font-family: pt-sans, sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u767,#u137
+{
+	background-color: transparent;
+	position: relative;
+}
+

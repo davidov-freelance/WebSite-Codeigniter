@@ -1,0 +1,3 @@
+http://overads.ru/postback.php?myprofit={profit}&flow_id={flow_id}
+http://overads.ru/postback.php
+myprofit=150&flow_id=12&

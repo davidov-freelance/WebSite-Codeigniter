@@ -1,0 +1,36 @@
+<manifest alg="2" build="2015.0.1.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1453469369101" domain="overads.net">
+  <folder name="css">
+    <file name="site_global.css" crc="4157037295"/>
+    <file name="master_a-master.css" crc="307470781" ref="index"/>
+    <file name="index.css" crc="3083290" ref="index"/>
+    <file name="iefonts_index.css" crc="159913122" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4183747535" ref="index"/>
+    <file name="museutils.js" crc="334180058" ref="index"/>
+    <file name="jquery.watch.js" crc="293013060" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="webpro.js" crc="7309900" ref="index"/>
+    <file name="musewpslideshow.js" crc="4149944274" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4282111687" ref="index"/>
+    <file name="touchswipe.js" crc="526709374" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="aip_rainbow_dash2.png" crc="3898455803" ref="index" seo="true"/>
+    <file name="post-97110-0-61373500-1371007848.png" crc="162243545" ref="index" seo="true"/>
+    <file name="joker-s_pony.png" crc="3770636344" ref="index" seo="true"/>
+    <file name="14327573142930.png" crc="3931253722" ref="index" seo="true"/>
+    <file name="главная-favicon.ico" crc="3946715547" ref="index"/>
+    <file name="cloud-clipart-png-cloud-clip-art-117.png" crc="3866387728" ref="index" seo="true"/>
+    <file name="1447561100_left_nav_arrow_point.png" crc="243235290" seo="true" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="silver_spoon_vector.png" crc="499346566" seo="true" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="qcbxge4ki.png" crc="3981840680" seo="true" ref="index"/>
+    <file name="1447564732_skype.png" crc="4254353252" seo="true" ref="index"/>
+    <file name="mlp_resource_spike_03_by_zutheskunk-d5cfpgu.png" crc="34966738" seo="true" ref="index"/>
+    <file name="b2el97u.png" crc="3877197003" seo="true" ref="index"/>
+    <file name="vinyl_scratch_by_moongazeponies-d3hglym.png" crc="55077370" seo="true" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4231984515" mt="1453469317742" redirect="true" seo="true"/>
+</manifest>

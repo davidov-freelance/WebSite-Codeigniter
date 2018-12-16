@@ -1,0 +1,87 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,<?php
+	require_once 'libs/overads.php';
+	$overads = new Overads(209);
+	$insertRequest = $overads->insertRequest('lead', $_POST["Order"]);
+?>
+
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+
+#goals_editable_1_new.btn{
+/*	margin-top: 5px;*/
+}
+
+a.edit.btn.btn-xs.btn-default {
+}
+
+.dataTable input[type=text]{
+	height: 23px;
+}
+.dataTable select, .dataTable button{
+	height: 23px;
+	padding: 1px 12px!important
+}
+
+.portlet-body legend{
+	font-size: 17px!important;
+	margin-bottom: 1px!important;
+}
+
+
+.selectOfferGoal{
+	border-bottom: 1px dotted;
+}
+.selectOfferGoal:hover{
+	text-decoration: none;
+}
+
+.hideGoalSelect{
+	display: none!important;
+}
+.va-middle td{
+	vertical-align: middle!important;
+}
+.dashboard-offer{
+	width: 35px;
+}
+.offer-image{
+	width: 30px;
+}
+.split-test .expand, .split-test .collapse{
+	background: none!important;
+	font-color: red!important;
+}
+
+.split-test{
+	padding-left: 20px!important;
+	float: left!important;
+}
+.split-test a{
+	color: green!important;
+
+}
+
+#sample_editable_1 tfoot th, #sample_editable_1 tfoot td{
+	border: none;
+	border-top: 1px solid #ddd;
+}
+#sample_editable_1 tfoot tr{
+	background: #f6f6f6;
+	font-weight: bold;
+}
